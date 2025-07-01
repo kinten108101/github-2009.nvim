@@ -15,7 +15,7 @@ local hl = function(id, name, val)
 	vim.api.nvim_set_hl(id, name, val)
 end
 
-hl(0, 'Normal',       { fg = "#000000", bg = "#f8f8ff", ctermfg = 16, ctermbg = 231 })
+hl(0, 'Normal',       { fg = "#000000", bg = "#fcfcfc", ctermfg = 16, ctermbg = 231 })
 hl(0, "DiffAdd",      { fg = "#003300", bg = "#DDFFDD", ctermfg = 22, ctermbg = 194 })
 hl(0, "DiffChange",   { bg = "#ECECEC", ctermbg = 255 })
 hl(0, "DiffText",     { fg = "#000033", bg = "#DDDDFF", ctermfg = 17, ctermbg = 189 })
