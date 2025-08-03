@@ -71,3 +71,4 @@ hl(0, "CursorLine",   { bg = "#D8D8DD", ctermbg = 253 })
 hl(0, "CursorColumn", { bg = "#D8D8DD", ctermbg = 253 })
 
 hl(0, "rubyStringDelimiter", { link = "String" })
+hl(0, "@markup.raw.block.markdown", { link = "Normal" })
